@@ -1,0 +1,59 @@
+@media (min-width : 1024px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  /*start nav*/
+  #nav {
+    margin: 0;
+    padding-left: 5%;
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .nav {
+    float: left;
+    padding-right: 30px;
+  }
+
+  #nav-name {
+    padding-right: 55%;
+  }
+
+  .nav h4 {
+    padding-top: 15px;
+  }
+
+  /*end nav*/
+
+  /*start header*/
+  #header {
+    min-height: 100vh;
+  }
+
+
+
+}
