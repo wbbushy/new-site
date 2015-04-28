@@ -12,18 +12,26 @@
   <body>
     <!-- start nav -->
     <nav id="nav">
-      <div class='nav' id='nav-name'>
-        <h4>Butler Bushyhead</h4>
-      </div>
-      <div class='nav' id='nav-about'>
-        <h4>About</h4>
-      </div>
-      <div class='nav' id='nav-projects'>
-        <h4>Projects</h4>
-      </div>
-      <div class='nav' id='nav-contact'>
-        <h4>Contact</h4>
-      </div>
+      <a href='#header'>
+        <div class='nav' id='nav-header'>
+          <h4>Butler Bushyhead</h4>
+        </div>
+      </a>
+      <a href='#about'>
+        <div class='nav' id='nav-about'>
+          <h4>About</h4>
+        </div>
+      </a>
+      <a href='#projects'>
+        <div class='nav' id='nav-projects'>
+          <h4>Projects</h4>
+        </div>
+      </a>
+      <a href='#contact'>
+        <div class='nav' id='nav-contact'>
+          <h4>Contact</h4>
+        </div>
+      </a>
     </nav>
     <!-- end nav -->
 
@@ -33,34 +41,92 @@
         <h1>Butler Bushyhead</h1>
       </div>
     </section>
+    <div id='header-bot'>
+    </div>
     <!-- end header -->
 
     <!-- start about -->
     <section id='about'>
       <div class='container'>
+        <div id='about-picture'>
+          <img id='picture'src='resources/images/me2.jpg' alt='me'>
+        </div>
         <div id="about-content-div">
           <h2>Yes My Name Really is William Butler Bushyhead</h2>
-          <p>Oh Hello</p>
-        </div>
-        <div id='about-picture'>
+          <p>I am a fullstack web developer with a passion for learning and solving puzzles.</p>
         </div>
       </div>
     </section>
+    <div id='about-bot'>
+    </div>
     <!-- end about -->
 
     <!-- start projects -->
     <section id='projects'>
       <div class='container'>
+        <h3>Projects</h3>
+        <div class='span-3'>
+          <a id='col-1' href="http://shapetango.herokuapp.com/" target="_blank">
+            <img class='project-image'id='tango' src='resources/images/tango.jpg' alt='shape-tango'>
+          </a>
+        </div>
+        <div class='span-3'>
+          <a id='col-2' href="http://definedapp.herokuapp.com/" target="_blank">
+            <img class='project-image' id='defined' src='resources/images/books.jpg' alt='defined-app'>
+          </a>
+        </div>
+        <div class='span-3'>
+          <a id='col-3' href="http://github.com/wbbushy/config-parser" target="_blank">
+            <img class='project-image' id='parser' src='resources/images/sort.jpg' alt='config-parser'>
+          </a>
+        </div>
       </div>
     </section>
+    <div id='projects-bot'>
+    </div>
     <!-- end projects -->
 
     <!-- start contact -->
     <section id='contact'>
       <div class='container'>
         <div id='contact info'>
+          <div class='span-3'>
+            <a href='http://github.com/wbbushy' target='_blank'>
+              <h5>
+                <span id="github"></span>
+                Github
+              </h5>
+            </a>
+          </div>
+          <div class='span-3'>
+            <a href="mailto:wbbushyhead@gmail.com">
+              <h5>
+                <span id="email"></span>
+                wbbushyhead@gmail.com
+              </h5>
+            </a>
+          </div>
+          <div class='span-3'>
+            <a href='resources/files/butler_bushyhead_resume.pdf' download>
+              <h5>
+                <span id="resume"> </span>
+                Resume
+              </h5>
+            </a>
+          </div>
         </div>
         <div id='social-media'>
+          <div class='mid'>
+            <a href='http://twitter.com/wbbushy' target='_blank'>
+              <span id='twitter'></span>
+            </a>
+            <a href='http://facebook.com/wbbushyhead' target='_blank'>
+              <span id='facebook'></span>
+            </a>
+            <a href='http://linkedin.com/in/wbbushyhead' target='_blank'>
+              <span id='linkedin'></span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

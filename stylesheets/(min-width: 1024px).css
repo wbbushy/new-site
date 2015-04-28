@@ -7,19 +7,43 @@
 
   h1 {
     margin: 0;
-    padding-top: 200px;
+    padding-top: 130px;
     text-align: center;
     font-size: 48px;
     text-transform: uppercase;
+    color: white;
+  }
+
+  h2 {
+    margin: 0;
+    padding-top: 50px;
+  }
+
+  h3 {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
   }
 
   h4 {
     margin: 0;
   }
 
+  h5 {
+    text-transform: uppercase;
+  }
+
+
   .container {
     width: 90%;
     margin: auto;
+    overflow: hidden;
+  }
+
+  .span-3 {
+    width: 33%;
+    float: left;
   }
 
   /*start nav*/
@@ -34,13 +58,28 @@
     z-index: 1;
   }
 
-  .nav {
-    float: left;
-    padding-right: 30px;
+  #nav a:link {
+    text-decoration: none;
+    color: white;
   }
 
-  #nav-name {
-    padding-right: 55%;
+  #nav a:visited {
+    color: white;
+  }
+
+  .nav {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 19px;
+
+  }
+
+  #nav-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 19px;
+    margin-right: 55%;
   }
 
   .nav h4 {
@@ -52,8 +91,175 @@
   /*start header*/
   #header {
     min-height: 100vh;
+    background: no-repeat center right fixed url('../resources/images/landing.jpg');
+    background-size: cover;
+  }
+
+  /*end header*/
+
+  /*start about*/
+
+  #about {
+    padding-bottom: 50px;
+  }
+
+  #about-picture {
+    width: 50%;
+    float: left;
+  }
+
+  #picture {
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+  }
+
+  /*end about*/
+
+  /*start projects*/
+
+  #projects {
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+  }
+
+  #projects a {
+    display: block;
+    height: 210px;
+    width: 280px;
+  }
+
+  #col-1 {
+    margin-right: auto;
+  }
+
+  #col-2 {
+    margin: auto;
+  }
+
+  #col-3 {
+    margin-left: auto;
+  }
+
+  .project-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*end projects*/
+
+  /*start contact*/
+
+  #contact {
+    min-height: 80vh;
+    padding-top: 20vh;
+  }
+
+  #contact a {
+    text-align: center;
+  }
+
+  #contact a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  #contact a:hover {
+    color: black;
+  }
+
+  #contact a:visited {
+    color: black;
+  }
+
+  #github {
+    display: inline-block;
+    background: url('../resources/images/github.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+  }
+
+  #email {
+    display: inline-block;
+    background: url('../resources/images/email.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+  }
+
+  #resume {
+    display: inline-block;
+    background: url('../resources/images/file.png') no-repeat;
+    height: 32px;
+    width: 32px;
+    margin-bottom: -10px;
+    margin-right: 5px;
+  }
+
+  .mid {
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+  }
+
+  #twitter {
+    display: inline-block;
+    background: url('../resources/images/twitter.png') no-repeat;
+    height: 32px;
+    width: 32px;
+  }
+
+  #facebook {
+    display: inline-block;
+    background: url('../resources/images/facebook.png') no-repeat;
+    height: 32px;
+    width: 32px;
+  }
+
+  #linkedin {
+    display: inline-block;
+    background: url('../resources/images/linkedin.png') no-repeat;
+    height: 32px;
+    width: 32px;
+  }
+
+  /*end contact*/
+
+  /*start resume*/
+
+  #experience h1 {
+    text-align: left;
+    color: black;
+    margin: 0;
+    padding-top: 50px;
+  }
+
+  #experience h2 {
+    text-align: left;
+    padding-top: 30px;
+  }
+
+  #experience h3 {
+    text-align: left;
+    padding-bottom: 0;
   }
 
 
+  #experience h4 {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
 
+  #experience h5 {
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  #education h4 {
+    padding-top: 30px;
+  }
 }
